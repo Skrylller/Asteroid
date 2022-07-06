@@ -79,5 +79,29 @@ PrefabInstance:
       propertyPath: _scoreForDestroy
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029976375658782675, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3154ffdc118388478cd084e0b999fe7, type: 3}
