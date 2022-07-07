@@ -6,6 +6,7 @@ public class Asteroid : MonoBehaviour
 {
     [SerializeField] private int _asteroidNum;
     [SerializeField] private Vector2 _speedRange;
+    [SerializeField] private int _asteroidAngle;
     public Vector2 speedRange { get{ return _speedRange; } private set { } }
 
     [SerializeField] private int _scoreForDestroy;
@@ -60,9 +61,9 @@ public class Asteroid : MonoBehaviour
             float speed = Random.Range(_speedRange.x, _speedRange.y);
             Asteroid asteroid;
             asteroid = ObjectsPull.main.asteroids[_asteroidNum + 1].ActivateObject(transform.position, 0).GetComponent<Asteroid>();
-            asteroid.SetDirectional(asteroid.speed, _angle + 45);
+            asteroid.SetDirectional(asteroid.speed, _angle + _asteroidAngle);
             asteroid = ObjectsPull.main.asteroids[_asteroidNum + 1].ActivateObject(transform.position, 0).GetComponent<Asteroid>();
-            asteroid.SetDirectional(asteroid.speed, _angle - 45);
+            asteroid.SetDirectional(asteroid.speed, _angle - _asteroidAngle);
         }
     }
 

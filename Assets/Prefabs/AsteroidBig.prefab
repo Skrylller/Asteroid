@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _asteroidNum: 0
   _speedRange: {x: 1, y: 3}
+  _asteroidAngle: 45
   _scoreForDestroy: 20
   _destroyClip: {fileID: 8300000, guid: 962f94040bdfb2b41998d3f71b4796bb, type: 3}
 --- !u!114 &990332847609312584
